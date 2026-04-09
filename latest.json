@@ -1,8 +1,8 @@
 ﻿{
-  "version": "1.0.0",
-  "downloadUrl": "https://github.com/Ppppan9/VoiceClone-Updates/releases/download/v1.0.0/ElevenLabs-Voice-Panel-v1.0.0-win-x64.zip",
-  "publishedAt": "2026-04-08T18:48:00+08:00",
-  "notes": "Release 1.0.0",
-  "sha256": "7eb6ca120acf823df4e545bc92d9c3609a2168bcd40f19e3b0046464b8e07cb9",
-  "releasePageUrl": "https://github.com/Ppppan9/VoiceClone-Updates/releases/tag/v1.0.0"
+  "version": "1.0.1",
+  "downloadUrl": "https://github.com/Ppppan9/VoiceClone-Updates/releases/download/v1.0.1/ElevenLabs-Voice-Panel-v1.0.1-win-x64.zip",
+  "publishedAt": "2026-04-09T09:31:56+08:00",
+  "notes": "修复在线更新发布流程，提升便携版升级稳定性。",
+  "sha256": "058786fa6e92f4931a57bc53c09e45aed9309a1b0c9bd5379eb534b97568e51f",
+  "releasePageUrl": "https://github.com/Ppppan9/VoiceClone-Updates/releases/tag/v1.0.1"
 }
