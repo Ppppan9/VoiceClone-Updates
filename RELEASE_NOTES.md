@@ -1,17 +1,22 @@
-# v1.0.1 更新说明
+# v1.0.2 更新说明
 
-本次更新主要完善了便携版的发布与在线更新链路，便于后续继续通过面板内的“更新脚本”按钮进行版本升级。
+本次更新重点优化了启动体验。安装完成后，不再需要每次手动运行本地服务，正常打开 After Effects 即可自动加载面板并拉起本地运行环境。
 
 ## 本次改动
-- 修复公开更新清单生成参数问题，确保版本号、下载地址和 Release 链接能够正确生成
-- 优化便携版升级流程，提高在线更新检测和发布流程的一致性
-- 完善发布与分发说明，便于后续持续迭代和对外分发
+- 新增一键安装入口 `install-panel.cmd`，用于首次安装面板
+- 面板支持在启动时自动检测并拉起本地服务，不再要求每次手动运行 `start-panel.cmd`
+- 安装脚本会自动写入运行目录配置，并同步扩展版本号
+- 更新发布包说明，用户安装流程更精简
+
+## 新的使用方式
+- 首次使用：解压后配置 `.env`，运行一次 `install-panel.cmd`
+- 后续使用：直接打开 After Effects，面板会自动加载并启动服务
 
 ## 发布文件
-- ElevenLabs-Voice-Panel-v1.0.1-win-x64.zip
+- ElevenLabs-Voice-Panel-v1.0.2-win-x64.zip
 
 ## SHA256
-- 058786fa6e92f4931a57bc53c09e45aed9309a1b0c9bd5379eb534b97568e51f
+- f1e210c621f2a326d6ebf8f1846018f9d638fe7ca2289951346976fc0cece5bd
 
 ## 下载地址
-- https://github.com/Ppppan9/VoiceClone-Updates/releases/download/v1.0.1/ElevenLabs-Voice-Panel-v1.0.1-win-x64.zip
+- https://github.com/Ppppan9/VoiceClone-Updates/releases/download/v1.0.2/ElevenLabs-Voice-Panel-v1.0.2-win-x64.zip
