@@ -1,8 +1,8 @@
 ﻿{
-  "version": "1.0.5",
-  "downloadUrl": "https://github.com/Ppppan9/VoiceClone-Updates/releases/download/v1.0.5/ElevenLabs-Voice-Panel-v1.0.5-win-x64.zip",
-  "publishedAt": "2026-04-10T14:15:03+08:00",
-  "notes": "✨ 优化已克隆声音管理与配音选声体验；🔍 文字配音支持关键词模糊搜索声音；🗑️ 克隆声音区新增选中与删除选中；🎛️ 面板布局继续精简，操作更直观。",
-  "sha256": "bf99c1e285c57a35767c8f404b6d25eaa460484a7ac489af31dd993ba74323f9",
-  "releasePageUrl": "https://github.com/Ppppan9/VoiceClone-Updates/releases/tag/v1.0.5"
+  "version": "1.0.6",
+  "downloadUrl": "https://github.com/Ppppan9/VoiceClone-Updates/releases/download/v1.0.6/ElevenLabs-Voice-Panel-v1.0.6-win-x64.zip",
+  "publishedAt": "2026-04-10T14:36:16+08:00",
+  "notes": "🩹 修复面板内点击更新脚本时，因临时更新脚本目录不存在导致的 ENOENT 报错；🔒 更新流程改为自动使用系统临时目录并自动创建目录；📦 同步加固发布打包脚本，后续热更新包生成更稳定。",
+  "sha256": "e70c46daaa3170c340d4ff21aec9fcc88b61dc305bc4119fa83d3223b0e08f2d",
+  "releasePageUrl": "https://github.com/Ppppan9/VoiceClone-Updates/releases/tag/v1.0.6"
 }
