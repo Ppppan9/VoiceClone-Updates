@@ -1,8 +1,8 @@
 {
-  "version": "1.0.7",
-  "downloadUrl": "https://raw.githubusercontent.com/Ppppan9/VoiceClone-Updates/main/downloads/ElevenLabs-Voice-Panel-v1.0.7-win-x64.zip",
-  "publishedAt": "2026-04-10T16:00:01+08:00",
-  "notes": "🎯 配音结果状态改为更直观的成功 / 失败 / 无；✂️ 精简文字配音区域并移除音频预览；📁 生成音频会统一保存到 AE 工程目录的 ElevenLabs 文件夹，并归档到 AE 项目面板同名文件夹；🔄 声音克隆区的刷新按钮文案简化为“刷新”。",
-  "sha256": "a3590412caecd02934ae10e4a1126d4c988aa888bdc1c1a8d9d123488a1a3104",
+  "version": "1.0.8",
+  "downloadUrl": "https://raw.githubusercontent.com/Ppppan9/VoiceClone-Updates/main/downloads/ElevenLabs-Voice-Panel-v1.0.8-win-x64.zip",
+  "publishedAt": "2026-04-10T16:10:59+08:00",
+  "notes": "🩹 修复面板内点击“更新脚本”时 PowerShell 更新脚本参数块解析报错的问题；🔧 将 apply-update.ps1 的 param(...) 调整到脚本顶部，确保旧版运行时热补丁后可以正常执行更新；📦 同步发布 1.0.8 热修复包供在线更新测试。",
+  "sha256": "3c431c271fe2a86140784eda06445754a2904cdcb3419f9aa83d26701852b549",
   "releasePageUrl": "https://github.com/Ppppan9/VoiceClone-Updates/blob/main/RELEASE_NOTES.md"
 }
