@@ -1,8 +1,8 @@
 {
-  "version": "1.0.8",
-  "downloadUrl": "https://raw.githubusercontent.com/Ppppan9/VoiceClone-Updates/main/downloads/ElevenLabs-Voice-Panel-v1.0.8-win-x64.zip",
-  "publishedAt": "2026-04-10T16:10:59+08:00",
-  "notes": "🩹 修复面板内点击“更新脚本”时 PowerShell 更新脚本参数块解析报错的问题；🔧 将 apply-update.ps1 的 param(...) 调整到脚本顶部，确保旧版运行时热补丁后可以正常执行更新；📦 同步发布 1.0.8 热修复包供在线更新测试。",
-  "sha256": "3c431c271fe2a86140784eda06445754a2904cdcb3419f9aa83d26701852b549",
+  "version": "1.0.9",
+  "downloadUrl": "https://raw.githubusercontent.com/Ppppan9/VoiceClone-Updates/main/downloads/ElevenLabs-Voice-Panel-v1.0.9-win-x64.zip",
+  "publishedAt": "2026-04-10T16:20:00+08:00",
+  "notes": "🚀 修复面板内更新后文件已覆盖但仍停留在旧版本进程的问题；♻️ 更新成功后会自动退出旧服务并回到 CEP 壳页重新拉起新版本；🩹 同步保留 1.0.8 的 PowerShell 更新脚本热修复。",
+  "sha256": "1892056dfac96335ca5f8470dc35acf563737cc734fe9e854b92bec21d15ec26",
   "releasePageUrl": "https://github.com/Ppppan9/VoiceClone-Updates/blob/main/RELEASE_NOTES.md"
 }
