@@ -1,17 +1,20 @@
-﻿# Public Update Repo
+# Public Update Repo
 
-This repo is only used to publish runtime packages and update metadata.
+This repo is used to publish runtime packages and update metadata for ElevenLabs Voice Panel.
 
-## Files to keep here
-- latest.json
-- GitHub Release assets
+## Files in this repo
+- `latest.json`
+- `downloads/ElevenLabs-Voice-Panel-v1.0.7-win-x64.zip`
+- `downloads/ElevenLabs-Voice-Panel-Setup-v1.0.7.exe`
 
-## latest.json URL
+## Update manifest URL
 https://raw.githubusercontent.com/Ppppan9/VoiceClone-Updates/main/latest.json
 
-## Current release assets
-- ElevenLabs-Voice-Panel-v1.0.6-win-x64.zip
-- ElevenLabs-Voice-Panel-Setup-v1.0.6.exe
+## Current download URLs
+- https://raw.githubusercontent.com/Ppppan9/VoiceClone-Updates/main/downloads/ElevenLabs-Voice-Panel-v1.0.7-win-x64.zip
+- https://raw.githubusercontent.com/Ppppan9/VoiceClone-Updates/main/downloads/ElevenLabs-Voice-Panel-Setup-v1.0.7.exe
 
-## Current release page
-https://github.com/Ppppan9/VoiceClone-Updates/releases/tag/v1.0.6
+## Notes
+- The in-panel updater reads `latest.json`.
+- The updater downloads the ZIP package from the `downloads` folder.
+- Manual install can use the EXE package from the same folder.

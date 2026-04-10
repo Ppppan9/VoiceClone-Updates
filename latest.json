@@ -1,8 +1,8 @@
-﻿{
-  "version": "1.0.6",
-  "downloadUrl": "https://github.com/Ppppan9/VoiceClone-Updates/releases/download/v1.0.6/ElevenLabs-Voice-Panel-v1.0.6-win-x64.zip",
-  "publishedAt": "2026-04-10T14:36:16+08:00",
-  "notes": "🩹 修复面板内点击更新脚本时，因临时更新脚本目录不存在导致的 ENOENT 报错；🔒 更新流程改为自动使用系统临时目录并自动创建目录；📦 同步加固发布打包脚本，后续热更新包生成更稳定。",
-  "sha256": "e70c46daaa3170c340d4ff21aec9fcc88b61dc305bc4119fa83d3223b0e08f2d",
-  "releasePageUrl": "https://github.com/Ppppan9/VoiceClone-Updates/releases/tag/v1.0.6"
+{
+  "version": "1.0.7",
+  "downloadUrl": "https://raw.githubusercontent.com/Ppppan9/VoiceClone-Updates/main/downloads/ElevenLabs-Voice-Panel-v1.0.7-win-x64.zip",
+  "publishedAt": "2026-04-10T16:00:01+08:00",
+  "notes": "🎯 配音结果状态改为更直观的成功 / 失败 / 无；✂️ 精简文字配音区域并移除音频预览；📁 生成音频会统一保存到 AE 工程目录的 ElevenLabs 文件夹，并归档到 AE 项目面板同名文件夹；🔄 声音克隆区的刷新按钮文案简化为“刷新”。",
+  "sha256": "a3590412caecd02934ae10e4a1126d4c988aa888bdc1c1a8d9d123488a1a3104",
+  "releasePageUrl": "https://github.com/Ppppan9/VoiceClone-Updates/blob/main/RELEASE_NOTES.md"
 }
