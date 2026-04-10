@@ -1,13 +1,11 @@
-# v1.0.3 更新说明
+# v1.0.4 更新说明
 
-本次更新把分发方式升级成了 Windows 一键安装包。用户只需要安装一次，之后直接打开 After Effects，就可以自动加载面板并启动本地服务。
+本次更新修复了安装包版本中“面板一直停在 Checking local service...”的问题。现在安装完成后，打开 After Effects 即可稳定自动加载面板并启动本地服务。
 
-## 本次改动
-- 新增 Windows 安装包 `ElevenLabs-Voice-Panel-Setup-v1.0.3.exe`
-- 安装包会自动把运行文件部署到 CEP 目录下，并自动执行面板安装
-- 发布包内置托管默认配置 `.env.defaults`，当前版本已锁定内置 ElevenLabs API Key
-- 后续如果内置 API 或发布配置变更，会跟随新版本包一起更新
-- 面板启动时会自动检测并拉起本地服务，使用时不再要求手动运行 `start-panel.cmd`
+## 本次修复
+- 修复运行包服务端构建方式，避免自动启动时因缺少依赖或模块格式不兼容而启动失败
+- 服务端运行入口改为稳定的 `server.cjs`
+- 保持 Windows 一键安装包分发方式不变，首次安装后仍然只需要直接打开 AE
 
 ## 首次使用
 - 下载并运行安装包
@@ -15,15 +13,15 @@
 - 之后直接打开 AE 即可使用面板
 
 ## 发布文件
-- ElevenLabs-Voice-Panel-v1.0.3-win-x64.zip
-- ElevenLabs-Voice-Panel-Setup-v1.0.3.exe
+- ElevenLabs-Voice-Panel-v1.0.4-win-x64.zip
+- ElevenLabs-Voice-Panel-Setup-v1.0.4.exe
 
 ## Runtime ZIP SHA256
-- 1fff73ebeaf203b47ff70f146e81e66f8aa8adda0abe323761a6792accd80728
+- 3a0605825d81e5fe3d990c15885368551b3f5a5b4032d1ca2b7b9eed4d9a5cd1
 
 ## Installer SHA256
-- 41c26f053c91ea3a6f4ba6db3a0cf002ff9359eeed01dc70a3ff03ed0cc54e51
+- 93330936f73d95eda629a8bd9d269b527c3b58cce54795b93c2cf0f93aaee024
 
 ## 下载地址
-- https://github.com/Ppppan9/VoiceClone-Updates/releases/download/v1.0.3/ElevenLabs-Voice-Panel-v1.0.3-win-x64.zip
-- https://github.com/Ppppan9/VoiceClone-Updates/releases/download/v1.0.3/ElevenLabs-Voice-Panel-Setup-v1.0.3.exe
+- https://github.com/Ppppan9/VoiceClone-Updates/releases/download/v1.0.4/ElevenLabs-Voice-Panel-v1.0.4-win-x64.zip
+- https://github.com/Ppppan9/VoiceClone-Updates/releases/download/v1.0.4/ElevenLabs-Voice-Panel-Setup-v1.0.4.exe
