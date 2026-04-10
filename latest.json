@@ -1,8 +1,8 @@
 ﻿{
-  "version": "1.0.4",
-  "downloadUrl": "https://github.com/Ppppan9/VoiceClone-Updates/releases/download/v1.0.4/ElevenLabs-Voice-Panel-v1.0.4-win-x64.zip",
-  "publishedAt": "2026-04-09T13:27:32+08:00",
-  "notes": "修复自动启动卡住问题，安装后打开 AE 即可稳定加载面板与本地服务。",
-  "sha256": "3a0605825d81e5fe3d990c15885368551b3f5a5b4032d1ca2b7b9eed4d9a5cd1",
-  "releasePageUrl": "https://github.com/Ppppan9/VoiceClone-Updates/releases/tag/v1.0.4"
+  "version": "1.0.5",
+  "downloadUrl": "https://github.com/Ppppan9/VoiceClone-Updates/releases/download/v1.0.5/ElevenLabs-Voice-Panel-v1.0.5-win-x64.zip",
+  "publishedAt": "2026-04-10T14:15:03+08:00",
+  "notes": "✨ 优化已克隆声音管理与配音选声体验；🔍 文字配音支持关键词模糊搜索声音；🗑️ 克隆声音区新增选中与删除选中；🎛️ 面板布局继续精简，操作更直观。",
+  "sha256": "bf99c1e285c57a35767c8f404b6d25eaa460484a7ac489af31dd993ba74323f9",
+  "releasePageUrl": "https://github.com/Ppppan9/VoiceClone-Updates/releases/tag/v1.0.5"
 }

@@ -1,27 +1,22 @@
-# v1.0.4 更新说明
+# Release 1.0.5
 
-本次更新修复了安装包版本中“面板一直停在 Checking local service...”的问题。现在安装完成后，打开 After Effects 即可稳定自动加载面板并启动本地服务。
+## ✨ 更新说明
 
-## 本次修复
-- 修复运行包服务端构建方式，避免自动启动时因缺少依赖或模块格式不兼容而启动失败
-- 服务端运行入口改为稳定的 `server.cjs`
-- 保持 Windows 一键安装包分发方式不变，首次安装后仍然只需要直接打开 AE
+- 🔍 文字配音现在支持按声音名、来源和 `voice_id` 进行关键词模糊搜索，找声音更快。
+- 🗑️ 克隆声音区域新增“选中”和“删除选中”能力，清理声音库更方便。
+- 🎛️ 已克隆声音列表改成更精简的滚动预览，只保留声音名称和来源信息。
+- 🎨 面板布局继续优化，主功能更聚焦，操作路径更直接。
 
-## 首次使用
-- 下载并运行安装包
-- 安装完成后重启 After Effects
-- 之后直接打开 AE 即可使用面板
+## 📦 发布内容
 
-## 发布文件
-- ElevenLabs-Voice-Panel-v1.0.4-win-x64.zip
-- ElevenLabs-Voice-Panel-Setup-v1.0.4.exe
+- ElevenLabs-Voice-Panel-v1.0.5-win-x64.zip
+- ElevenLabs-Voice-Panel-Setup-v1.0.5.exe
 
-## Runtime ZIP SHA256
-- 3a0605825d81e5fe3d990c15885368551b3f5a5b4032d1ca2b7b9eed4d9a5cd1
+## 🔐 SHA256
 
-## Installer SHA256
-- 93330936f73d95eda629a8bd9d269b527c3b58cce54795b93c2cf0f93aaee024
+- bf99c1e285c57a35767c8f404b6d25eaa460484a7ac489af31dd993ba74323f9
 
-## 下载地址
-- https://github.com/Ppppan9/VoiceClone-Updates/releases/download/v1.0.4/ElevenLabs-Voice-Panel-v1.0.4-win-x64.zip
-- https://github.com/Ppppan9/VoiceClone-Updates/releases/download/v1.0.4/ElevenLabs-Voice-Panel-Setup-v1.0.4.exe
+## ⬇️ 下载地址
+
+- https://github.com/Ppppan9/VoiceClone-Updates/releases/download/v1.0.5/ElevenLabs-Voice-Panel-v1.0.5-win-x64.zip
+- https://github.com/Ppppan9/VoiceClone-Updates/releases/download/v1.0.5/ElevenLabs-Voice-Panel-Setup-v1.0.5.exe
