@@ -1,8 +1,8 @@
 {
-  "version": "1.0.9",
-  "downloadUrl": "https://raw.githubusercontent.com/Ppppan9/VoiceClone-Updates/main/downloads/ElevenLabs-Voice-Panel-v1.0.9-win-x64.zip",
-  "publishedAt": "2026-04-10T16:20:00+08:00",
-  "notes": "🚀 修复面板内更新后文件已覆盖但仍停留在旧版本进程的问题；♻️ 更新成功后会自动退出旧服务并回到 CEP 壳页重新拉起新版本；🩹 同步保留 1.0.8 的 PowerShell 更新脚本热修复。",
-  "sha256": "1892056dfac96335ca5f8470dc35acf563737cc734fe9e854b92bec21d15ec26",
+  "version": "1.0.10",
+  "downloadUrl": "https://raw.githubusercontent.com/Ppppan9/VoiceClone-Updates/main/downloads/ElevenLabs-Voice-Panel-v1.0.10-win-x64.zip",
+  "publishedAt": "2026-04-14T13:29:53+08:00",
+  "notes": "🔁 修复只重启 AE 仍会连回旧版本地服务的问题；🧠 CEP 壳页现在会比对当前安装版本和 3000 端口实际运行版本，发现旧服务时自动停止并重拉新版本；📣 更新完成后增加明确提醒，提示请完全退出 After Effects 再重新打开。",
+  "sha256": "8529b9a09cf036f580d4a8a6296966a2c286cef2ed4274f8b71a8e84c9c9507f",
   "releasePageUrl": "https://github.com/Ppppan9/VoiceClone-Updates/blob/main/RELEASE_NOTES.md"
 }
